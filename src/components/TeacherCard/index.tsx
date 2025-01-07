@@ -1,8 +1,15 @@
-export const TeacherCard = ({name, job, teacherModule}) => {
+import { ITechList } from "../../App"
+
+interface ITeacherCardProps{
+    teacher: ITechList;
+}
+
+export const TeacherCard = ({teacher}: ITeacherCardProps) => {
     return(
         <li>
-            <h3>{name}</h3>
-            <p>{job} - {teacherModule}</p>
+            <h3>{teacher.name}</h3>
+            <p>{teacher.job}</p>
+            <span>{teacher.module}</span>
         </li>
     )
 }
