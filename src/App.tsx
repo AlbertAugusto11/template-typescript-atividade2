@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { TeacherList } from "./components/TeacherList"
-import { TeacherListForm } from "./components/TeacherListForm"
+import { TeacherListForm } from "./components/TeacherListForm/index2"
 
 export interface ITechList{
   id: string;
