@@ -13,20 +13,20 @@ function App() {
   const [teacherList, setTeacherList] = useState<ITechList[]>([
     {
       id: "75442486-0878-440c-9db1-a7006c25a39f",
-      name: "Alex",
-      job: "Instrutor",
+      name: "Ana Flavia",
+      job: "Instrutora",
       module: "M3"
     },
     {
       id: "cbab5a0e-102a-11ee-be56-0242ac120002",
-      name: "Gabriel",
-      job: "Instrutor",
+      name: "Danielle",
+      job: "Instrutora",
       module: "M3"
     },
     {
       id: "d1284fa0-102a-11ee-be56-0242ac120002",
-      name: "Raphael",
-      job: "Instrutor",
+      name: "Raphaela",
+      job: "Instrutora",
       module: "M3"
     },
     {
